@@ -1,2 +1,5 @@
 # Arquitectura-de-Software
-Tareas y archivos de la clase Arquitectura de software
+Proyecto: FINTECH & MICRO-PRÉSTAMOS
+
+Integrantes:
+Serrano Silva Jose Angel

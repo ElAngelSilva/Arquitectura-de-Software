@@ -5,7 +5,7 @@
       Arquitectura Hexagonal y Arquitectura por Eventos  
 2. Boceto
 
-![Diagrama informal](/img/Diagrama.png)
+![Diagrama informal](/docs/img/Diagrama.png)
 
 3. Justificación  
    1. Se decidió usar microservicios pues si algún otro apartado de la aplicación colapsa, los usuarios pueden seguir usando los demás para todos.  

@@ -1,4 +1,4 @@
-![Diagrama de Contexto](/img/Diagramadecontexto.jpeg)
+![Diagrama de Contexto](/docs/img/Diagramadecontexto.jpeg)
 
 ![Diagrama de Cpntenedores](/img/Diagramadecontenedores.jpeg)
 

@@ -1,3 +1,8 @@
+![Diagrama de Contexto](/img/Diagramadecontexto.jpeg)
+
+![Diagrama de Cpntenedores](/img/Diagramadecontenedores.jpeg)
+
+
 ### **Análisis de la caja rota**
 
 ### **Si el contenedor de la Base de Datos se cae por completo o pierde conexión durante 10 minutos…**

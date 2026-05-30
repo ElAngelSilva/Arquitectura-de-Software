@@ -1,6 +1,6 @@
 ![Diagrama de Contexto](/docs/img/Diagramadecontexto.jpeg)
 
-![Diagrama de Cpntenedores](/img/Diagramadecontenedores.jpeg)
+![Diagrama de Cpntenedores](/docs/img/Diagramadecontenedores.jpeg)
 
 
 ### **Análisis de la caja rota**

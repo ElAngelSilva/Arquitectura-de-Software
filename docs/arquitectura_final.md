@@ -4,7 +4,7 @@ Contexto: El sector financiero exige confianza absoluta y cero margen de error e
 movimiento de dinero.
 
 ● Objetivo del MVP: Construir un motor de transferencias internas que garantice la  
-exactitud de los saldos (ACID) y resista caídas de infraestructura.  
+exactitud de los saldos y resista caídas de infraestructura.  
 ● Expectativa del Usuario: Transacciones instantáneas. Si el sistema falla, espera un  
 mensaje claro, nunca un error de código.
 

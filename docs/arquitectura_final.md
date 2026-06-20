@@ -38,7 +38,7 @@ Atributos de calidad.
 
 Vista Estructural (C4).
 
-![][image1]
+![Diagrama de Cpntenedores](/docs/img/Diagramadecontenedores.jpeg)
 
 * Servicio de Transferencias (Backend Core)  
   * Tecnología: Python (FastAPI o Flask).

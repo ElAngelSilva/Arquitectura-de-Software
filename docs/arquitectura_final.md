@@ -1,3 +1,4 @@
+SECCION 1
 Estrategia y alcance.
 
 Contexto: El sector financiero exige confianza absoluta y cero margen de error en el  
@@ -36,6 +37,7 @@ Atributos de calidad.
    * Definición e Impacto: La facilidad con la que el código puede ser modificado, auditado y probado de forma automatizada. En el sector Fintech, el código debe ser auditable.  
    * Escenario de Arquitectura: Se evalúa al intentar agregar una nueva regla. Gracias a la separación de responsabilidades, el equipo puede programar y ejecutar pruebas unitarias sobre el núcleo de la transferencia simulando la base de datos, sin necesidad de levantar el contenedor de MySQL.
 
+SECCION 2
 Vista Estructural (C4).
 
 ![Diagrama de Contenedores](/docs/img/Diagramadecontenedores.jpeg)
@@ -46,6 +48,7 @@ Vista Estructural (C4).
 * Message Broker (Bus de Eventos)  
   * Tecnología: RabbitMQ, Kafka o Redis Pub/Sub.
 
+SECCION 3
 Vista de Fronteras y Contratos.
 
 Flujo Crítico 1: Ejecución de Transferencia Interna  
@@ -104,6 +107,7 @@ Manejo de la caja rota.
 
 Si la base de datos MySQL sufre una desconexión total de 10 minutos, el atributo de disponibilidad se protege mediante el patrón Circuit Breaker. En lugar de que el backend en Python acumule peticiones hasta saturar la memoria (colapso total), el circuito se "abre". Durante esos 10 minutos, el microservicio intercepta las peticiones y responde instantáneamente al API Gateway con un HTTP 503 Service Unavailable. El frontend móvil captura este código y muestra una alerta amigable: "Demoras técnicas. Tu dinero está seguro, intenta en unos minutos", protegiendo la confianza del usuario y los recursos del servidor.
 
+SECCION 4
 Vista de Persistencia (DER).
 
 Tabla Cuentas.  
@@ -130,6 +134,7 @@ Aquí se guardan las transferencias realizadas por los usuarios.
 | motivo\_fallo | varchar(255) | \- | DEFAULT | Motivo por el cual la transferencia no se realizo con exito |
 | fecha\_transaccion | timestamp | \- | No | Fecha en la que se realizó la transferencia |
 
+SECCION 5
 Vista de Despliegue e Infraestructura.
 
 Para este proyecto se decidió hacer un despliegue local lo que significa orquestar toda la infraestructura directamente en una computadora y usando docker.
